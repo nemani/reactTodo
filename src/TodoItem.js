@@ -44,7 +44,9 @@ export class TodoItem extends Component {
             className="checkbox"
             checked={this.props.checked && "checked"}
           />
-          <div className={"label" + (this.props.checked?" done":"")}>{this.props.text}</div>
+          <div className={"label" + (this.props.checked ? " done" : "")}>
+            {this.props.text}
+          </div>
         </div>
         <div onClick={() => this.props.del(this.props.id)} className="delete">
           Remove
