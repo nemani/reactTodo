@@ -17,7 +17,7 @@ body {
 }
 @media (max-width: 430px) {
 	.container {
-		width: 100%;
+		width: 85%;
 	}
 }
 ul {
@@ -80,7 +80,7 @@ label.new-task {
 }
 input.new-task {
 	float: left;
-	width: 315px;
+	width: 80%;
 }
 p > button:hover {
 	color: #61dafb;
@@ -104,7 +104,6 @@ li .checkbox {
 }
 li .label {
 	font-size: 18px;
-	width: 237px;
 	padding: 0 0 0 11px;
 }
 li .label.done {
