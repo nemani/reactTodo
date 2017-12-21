@@ -29,7 +29,9 @@ export class TodoAddForm extends Component {
             value={this.state.text}
             type="text"
           />
-          <button onClick={this.handleSubmit}>Add</button>
+          <button className="add" onClick={this.handleSubmit}>
+            Add
+          </button>
         </form>
       </p>
     );

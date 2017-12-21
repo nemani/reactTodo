@@ -82,7 +82,7 @@ input.new-task {
 	float: left;
 	width: 80%;
 }
-p > button:hover {
+button.add:hover {
 	color: #61dafb;
 }
 
