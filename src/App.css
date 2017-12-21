@@ -117,6 +117,7 @@ li .delete {
 }
 
 li .delete:hover {
+	cursor: pointer;
 	color: #cf2323;
 }
 
