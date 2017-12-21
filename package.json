@@ -12,6 +12,7 @@
 	"scripts": {
 		"predeploy": "yarn run build",
 		"deploy": "gh-pages -b gh-pages -d build",
+		"postdeploy": "git push origin master",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
