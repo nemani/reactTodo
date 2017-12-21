@@ -162,9 +162,9 @@ ul li.editMode label {
 }
 
 #footer {
-	position: fixed;
+	position: absolute;
+	padding-top: 10%;
 	width: 99%;
-	bottom: 10%;
 	color: inherit;
 	font-weight: 700;
 }
