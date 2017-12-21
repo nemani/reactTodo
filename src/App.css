@@ -162,9 +162,14 @@ ul li.editMode label {
 }
 
 #footer {
-	position: absolute;
+	position: fixed;
 	width: 99%;
-	bottom: 5%;
+	bottom: 10%;
+	color: inherit;
+	font-weight: 700;
+}
+#footer:hover {
+	color: #ca5cf1;
 }
 .icon {
 	display: inline-block;
@@ -173,4 +178,7 @@ ul li.editMode label {
 	stroke-width: 0;
 	stroke: currentColor;
 	fill: currentColor;
+}
+.icon-coffee {
+	width: 1.0361328125em;
 }
