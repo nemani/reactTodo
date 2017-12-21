@@ -19,6 +19,7 @@ class App extends Component {
 				</div>
 				<center id="footer">
 					<a
+						target="_black"
 						href="http://nemaniarjun.github.io/"
 						style={{ color: "inherit", textDecoration: "none" }}
 					>
