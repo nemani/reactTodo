@@ -31,7 +31,7 @@
   #forkongithub a::after {
     position: absolute;
   }
-  #forkongithub a:hover {
+  .github-corner:hover ~ #forkongithub > a {
     background: #61dafb;
     color: #222;
   }
@@ -43,7 +43,7 @@
     width: 200px;
     overflow: hidden;
     height: 200px;
-    z-index: 9999;
+    z-index: 9;
   }
   #forkongithub a {
     width: 200px;
@@ -56,5 +56,41 @@
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     box-shadow: 4px 4px 10px #61dafb;
+  }
+}
+.github-corner {
+  position: fixed;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 200px;
+  overflow: hidden;
+  height: 200px;
+  z-index: 10;
+}
+.github-corner:hover .octo-arm {
+  /*z-index: 100;*/
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
   }
 }
